@@ -695,6 +695,66 @@ ul { list-style: none; }
 /* =============================================
    PRICING
    ============================================= */
+
+/* Condensed home page pricing snapshot */
+.pricing-snap {
+  max-width: 560px;
+  margin: 0 auto;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 40px 48px;
+  text-align: center;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.1);
+}
+.pricing-snap-label {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--teal);
+  margin-bottom: 6px;
+}
+.pricing-snap-price {
+  font-family: var(--font-heading);
+  font-size: 52px;
+  font-weight: 800;
+  color: var(--navy);
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.pricing-snap-price span {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--blue);
+}
+.pricing-snap-sub {
+  font-size: 14px;
+  color: var(--gray-500);
+  margin-bottom: 24px;
+}
+.pricing-snap-features {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 24px;
+  text-align: left;
+  margin-bottom: 28px;
+  font-size: 14px;
+  color: var(--gray-700);
+}
+.pricing-snap-features li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.pricing-snap-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
 .pricing-card {
   max-width: 580px;
   margin: 0 auto;
