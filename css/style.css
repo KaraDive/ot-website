@@ -115,7 +115,7 @@ ul { list-style: none; }
   box-shadow: 0 2px 0 rgba(0,0,0,0.3), 0 3px 8px rgba(0,0,0,0.2) !important;
 }
 
-/* BOOK A DEMO = ghost/outline button */
+/* BOOK A DEMO = ghost/outline 3D button */
 .nav-cta {
   background: transparent !important;
   border: 1.5px solid rgba(255,255,255,0.6) !important;
@@ -124,11 +124,15 @@ ul { list-style: none; }
   color: var(--white) !important;
   font-weight: 600 !important;
   font-size: 14px !important;
-  transition: all 0.25s !important;
+  transition: all 0.2s !important;
+  box-shadow: 0 4px 0 rgba(255,255,255,0.2), 0 6px 12px rgba(0,0,0,0.2) !important;
+  display: inline-block;
 }
 .nav-cta:hover {
   background: rgba(255,255,255,0.12) !important;
   border-color: rgba(255,255,255,0.9) !important;
+  transform: translateY(2px) !important;
+  box-shadow: 0 2px 0 rgba(255,255,255,0.2), 0 3px 8px rgba(0,0,0,0.2) !important;
 }
 
 .nav-hamburger {
@@ -293,16 +297,16 @@ ul { list-style: none; }
   align-items: center;
 }
 .hero-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: rgba(255,255,255,0.15);
-  border: 1px solid rgba(255,255,255,0.25);
-  padding: 6px 16px;
-  border-radius: 50px;
-  font-size: 13px;
+  display: block;
+  background: none;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 26px;
   color: var(--white);
-  font-weight: 500;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   margin-bottom: 20px;
 }
 .hero h1 {
